@@ -1,0 +1,36 @@
+.cardo:hover{
+    transform: scale(1.15);
+    transition: 1s;
+    cursor: pointer;
+}
+.modal-body .row {
+    display: flex;
+}
+
+.modal-body .col-md-6 {
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+
+.modal-body img {
+    width: 100%;
+    height: auto;
+}
+.h1-font{
+  font-family: 'Lilita One', cursive;
+  /* font-size: 100px; */
+}
+.nav-link, .card-title{
+  font-family: 'Cabin', sans-serif;
+  color: white;
+}
+.nav-link:hover{
+  color: gold;
+}
+.gotopbtn{
+  position: sticky;
+  float: right;
+}
+.active{
+    color: gold !important;
+}
